@@ -17,8 +17,6 @@ OpenMP project: Implement Monte Carlo Estimation of Pi using OpenMP
 Each thread uses a random function to generate its own number of samples (sample_points_per_thread in slide 9). Control the random number generator to produce reasonable number of samples with high accuracy and reasonable execution time for computing Pi.
 
 Use an OpenMP reduction in the end to sum up all the samples from different threads and compute Pi.
-
-If your code does not give an accurate Pi or runs for long time, we will deduct points.
 ----------------------------------
 To Compile:
 
